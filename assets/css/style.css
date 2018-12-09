@@ -1,0 +1,147 @@
+#name {
+    font-size: 24px;
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+}
+
+a:active {
+    color: white;
+    background-color: #4aaaa5;
+}
+
+a:focus {
+    color: darkslategray;
+    text-transform: uppercase;
+}
+
+#AboutHeader {
+    color: #4aaaa5;
+}
+
+body {
+    background-image: url("../images/darkpattern.png");
+}
+
+.main-about {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    clear: both;
+}
+
+.main-div {
+    max-width: 960px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #dddddd;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #dddddd;
+}
+
+#profilepic {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.row {
+    max-width: 960px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+P {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 960px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  html, body {
+      height: 100%;
+      margin: 0;
+  }
+
+  .wrapper { 
+      min-height: 100%;
+      margin-bottom: -50px;
+  }
+
+  .footer,
+  .push {
+      height: 50px;
+  }
+
